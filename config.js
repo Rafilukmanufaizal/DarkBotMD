@@ -18,10 +18,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6281327441039']
-global.premium = ['6281327441039']
+global.owner = ['6285600380823']
+global.premium = ['6285600380823']
 global.packname = 'Hisoka Morrow'
-global.author = 'Mr_Dark'
+global.author = 'Faisal'
 global.sessionName = 'session'
 global.prefa = ['/','!','.','#',',','_']
 global.sp = '⭔'
