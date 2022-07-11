@@ -21,7 +21,7 @@ global.APIKeys = {
 global.owner = ['6285600380823']
 global.premium = ['6285600380823']
 global.packname = 'Hisoka Morrow'
-global.author = 'Faisal'
+global.author = 'Sall-Md'
 global.sessionName = 'session'
 global.prefa = ['/','!','.','#',',','_']
 global.sp = '⭔'
@@ -38,7 +38,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 30
 }
 global.thumb = fs.readFileSync('./lib/logo.jpg')
 
