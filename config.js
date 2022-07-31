@@ -18,10 +18,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285600380823']
-global.premium = ['6285600380823']
+global.owner = ['6285600380823','6285693650294']
+global.premium = ['6285600380823','6285693650294']
 global.packname = 'Hisoka Morrow'
-global.author = 'Faisal'
+global.author = 'Neo-Md'
 global.sessionName = 'session'
 global.prefa = ['/','!','.','#',',','_']
 global.sp = '⭔'
@@ -38,7 +38,7 @@ global.mess = {
 }
 global.limitawal = {
     premium: "Infinity",
-    free: 100
+    free: 30
 }
 global.thumb = fs.readFileSync('./lib/logo.jpg')
 
