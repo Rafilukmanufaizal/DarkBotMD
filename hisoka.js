@@ -542,7 +542,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('This bot Script : https://github.com/DARK-02/DarkBotMD\n\nBase : https://github.com/DikaArdnt/Hisoka-Morou\n\nAdded Dark Feature By Mr_Dark\n\n Dont Forget Give Star')
+                m.reply('This bot Script : https://github.com/EzinterOfc/DarkBotMDl\n\nBase : https://github.com/DikaArdnt/Hisoka-Morou\n\nAdded Dark Feature By Mr_Dark\n\n Dont Forget Give Star')
             }
             break
             case 'chat': {
@@ -2624,7 +2624,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'instafollower':{
-                 if (!text) throw `Example: *${prefix + command} official_of_mrdark*`
+                 if (!text) throw `Example: *${prefix + command} rafilukmanufaizal*`
                  m.reply(mess.wait)
                  exec("python3 qlizz.py "+text, (err, stdout) => {
                         if(err) return m.reply(err)
@@ -2633,7 +2633,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             }
             break
             case 'SsWeb': case 'ssweb': case 'Ssweb': case 'ScreenshotWeb': case 'screenshotweb':{
-                 if (!text) throw `Example: *${prefix + command} https://github.com/DARK-02*`
+                 if (!text) throw `Example: *${prefix + command} https://github.com/EzinterOfc*`
                  m.reply(mess.wait)
                  axios.get('https://api.pikwy.com/', {
                                                params: {
@@ -2648,11 +2648,11 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                                                    'f': 'jpg',
                                                    'rt': 'jweb'
                                                 }
-                 }).then(({data}) => { return hisoka.sendMessage(m.chat, {image: {url: data.iurl}, caption: 'Screenshot web, copyright by MR_DARK 2022'}) })
+                 }).then(({data}) => { return hisoka.sendMessage(m.chat, {image: {url: data.iurl}, caption: 'Screenshot web, copyright by NEO-BOTZ 2022'}) })
             }
             break
             case 'igstalk':{
-                 if (!text) throw `Example: *${prefix + command} official_of_mrdark*`
+                 if (!text) throw `Example: *${prefix + command} rafilukmanufaizal*`
                  m.reply(mess.wait)
                  exec("python3 igstalk.py "+text, (err, stdout) => {
                         if(err) return m.reply(err)
@@ -2734,11 +2734,11 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 ════════════════════
 *What the updated:* _Added ttp command, added Screenshotweb command, added translate command, added webinfo command, added captcha generator, added text to sound command, update apikey, added copy web code command, added free instagram follower command, added instagram stalker_
 *Status:* _https://dark-02.github.io/DarkBotStatus.html_
-*Join:* _https://chat.whatsapp.com/GfDPRMb91AD8UXpD2jbJVD_
-*Who's Updated?:* _MrDark_
+*Join:* _https://chat.whatsapp.com/DnOeCnfvCvREjasisjOCpU_
+*Who's Updated?:* _NeoBotZ_
 ════════════════════
 
-*« DarkScript Menu »*
+*« NeoScript Menu »*
 •≽  ${prefix}attp [text]
 •≽  ${prefix}ttp [text]
 •≽  ${prefix}tts [text]
@@ -3036,7 +3036,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                                     id: 'sc'
                                 }
                             }]
-                        hisoka.send5ButImg(m.chat, anu, 'DarkBot ~ Multi Device', global.thumb, btn)
+                        hisoka.send5ButImg(m.chat, anu, 'NeoBotZ ~ Multi Device', global.thumb, btn)
                      }
             break
             default:
